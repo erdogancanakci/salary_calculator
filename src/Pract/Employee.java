@@ -20,6 +20,7 @@ public class Employee {
             return 0;
     }
 
+
     public int getTotalHireYear () {
         return 2021 - getHireYear();
     }
@@ -67,6 +68,7 @@ public class Employee {
     public int getHireYear() {
         return m_hireYear;
     }
+
 
     public void setHireYear(int hireYear) {
         this.m_hireYear = hireYear;
