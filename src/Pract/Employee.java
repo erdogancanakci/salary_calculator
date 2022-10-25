@@ -3,7 +3,6 @@ package Pract;
 public class Employee {
     private String m_name;
     private double m_salary;
-
     private int m_workHours;
     private int m_hireYear;
 
@@ -19,7 +18,6 @@ public class Employee {
         else
             return 0;
     }
-
 
     public int getTotalHireYear () {
         return 2021 - getHireYear();
@@ -68,7 +66,6 @@ public class Employee {
     public int getHireYear() {
         return m_hireYear;
     }
-
 
     public void setHireYear(int hireYear) {
         this.m_hireYear = hireYear;
